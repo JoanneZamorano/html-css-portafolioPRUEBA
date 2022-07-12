@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #ED4E59;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.h-menu {
+  display: flex;
+  margin: 10px;
+}
+
+.h-background {
+  background-color: #ED4E59;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-enlace:hover {
+  background: rgba(255, 255, 255, 0.397);
+}
+
+nav {
+  padding: 10px;
+}
+
+.back-color-gris {
+  background-color: #F2F2F2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 200px 20px;
+}
+
+.back-color-g {
+  background-color: #E7E7E9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 200px 20px;
+}
+
+.content-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gal-img {
+  width: 10%;
+}
+
+/*footer*/
+.rrss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}/*# sourceMappingURL=styles.css.map */
